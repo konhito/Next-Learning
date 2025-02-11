@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 55, "column": 0}, "map": {"version":3,"sources":["file://C%3A/code/Next-Learning/src/app/api/v1/user/signup/route.ts"],"sourcesContent":["import { NextResponse } from \"next/server\";\r\n\r\nexport async function POST(res: Request) {\r\n  const { usrename, password } = await res.json();\r\n  return NextResponse.json(\r\n    {\r\n      msg: \"Succesfully SingedUp\",\r\n    },\r\n    { status: 200 }\r\n  );\r\n}\r\n"],"names":[],"mappings":";;;AAAA;;AAEO,eAAe,KAAK,GAAY;IACrC,MAAM,EAAE,QAAQ,EAAE,QAAQ,EAAE,GAAG,MAAM,IAAI,IAAI;IAC7C,OAAO,gIAAA,CAAA,eAAY,CAAC,IAAI,CACtB;QACE,KAAK;IACP,GACA;QAAE,QAAQ;IAAI;AAElB"}},
+    {"offset": {"line": 68, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}
