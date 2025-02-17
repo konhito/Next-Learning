@@ -1,1 +1,1 @@
-learn route
+Learning nextjs full.
